@@ -64,9 +64,10 @@ h1#titulo{
 }
 p#sobre{
     font-family: sans-serif;
+    text-align: center;
 }
 iframe{
-    box-shadow: 2px 2px 2px white;
+    box-shadow: 2px 2px 2px orange;
     border: 5px 5px 5px 5px;
 }
 /**Fim do corpo*/
