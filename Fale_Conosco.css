@@ -1,0 +1,57 @@
+
+/**Inicio Button*/
+
+button{
+    border: solid 1px gray;
+    border-radius: 20px;
+    color: orange;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+      
+   
+}
+.botao:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+
+button#pp{
+    border-radius:30px;
+}
+    
+
+
+button#cadastro{
+
+
+    border-radius:30px;
+}
+
+
+button#sobre{
+    border-radius:30px;
+
+    
+}
+
+button#fconosco{
+    border-radius:30px;
+}
+   
+
+/**Final Button*/
+
+/**Inicio do Fieldset*/
+fieldset{
+    margin-left: 900px;
+    
+}
+/**Final do Fieldset*/
+
+/**Inicio seice*/
+img#seice{
+    margin-top: -60px;
+    width: 200px;
+}
+/**Fim seice*/
