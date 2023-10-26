@@ -43,21 +43,79 @@ button#fconosco{
 /**Final Button*/
 
 /**Inicio do Fieldset*/
-fieldset{
-    margin-left: 900px;
-    
+fieldset#menu{
+    margin-left: 980px;
+    margin-bottom: -2px;
+}
+fieldset#beneficios{
+    text-align: center;
+    margin: 5px;
+    margin-left: 500px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    color: red;
+    border-radius: 30px;
+}
+fieldset#saude{
+    font-family: sans-serif;
+    color: red;
+    font-size: 10pt;
+    border-radius: 30px;
+}
+fieldset#diabete{
+    font-family: sans-serif;
+    color: red;
+    font-size: 10pt;
+    border-radius: 30px;
+}
+
+
+fieldset#consumir{
+    text-align: center;
+    margin: 5px;
+    margin-left: 390px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    color: red;
+    border-radius: 30px; 
+}
+
+
+
+
+fieldset#evitar{
+    text-align: center;
+    margin: 5px;
+    margin-left: 400px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    color: red;
+    border-radius: 30px; 
 }
 /**Final do Fieldset*/
 
 /**Inicio seice*/
 img#seice{
-    margin-top: -60px;
-    width: 200px;
+    margin-top: -100px;
+    width: 150px;
 }
 /**Fim seice*/
 
 /**Inicio do corpo*/
+
+hr{
+            position: justify;
+            top: 2px;
+            border: none;
+            height: 2px;
+            background: rgb(255, 170, 1);
+            margin-bottom: 5px;
+}
 h1#titulo{
+
  text-align: center;
  font-family: sans-serif;
  color:orange;
@@ -70,9 +128,24 @@ iframe{
     box-shadow: 2px 2px 2px orange;
     border: 5px 5px 5px 5px;
 }
+p#saude{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+p#diabete{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
 /**Fim do corpo*/
 
 
-/***/
-
-/***/
+/**inicio do Rodape*/
+footer{
+    text-align: center;
+}
+img#github{
+    width: 30px;
+}
+/**Fim do Rodape*/
