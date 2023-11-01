@@ -1,39 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="fale_conosco.css">
-    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/1981/PNG/512/orange_122998.png" type="image/x-icon">
-    <title>Contato</title>
+  <title>Formulário de Contato</title>
+ <link rel="stylesheet" href="teste.css">
+ <link rel="stylesheet" href="teste.js">
 </head>
 <body>
-    <div id="menu">
-        <fieldset style="width: 25%;">
-        <legend>Menu</legend>
-        
-        <a href="Pagina_principal.html"> <button type="button" id="pp">Página principal</button></a>
 
-       <a href="Beneficios.html" target="_blank"> <button type="button" id="cadastro">Benefícios</button></a>
-
-        <a href="tipos.html" target="_blank"> <button type="button" id="sobre">Tipos</button></a>
-
-       <a href="aula/aula.html" target="_blank"> <button type="button" id="fconosco">Fale conosco</button></a>
-
-    </fieldset>
-    </div>
-
-    <img id="seice" src="https://static.wixstatic.com/media/8bd2a4_bb420db8b5564177bb4aac23aeac1fdb~mv2.png/v1/fill/w_165,h_67,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LOGO%20SEICE%20P.png" alt="foto seice">
+  <div class="container2">
     
-    <hr>
-        
-    <<footer>
-      <p>ThiagoNicolas - Todos os direitos Reservados - 2023</p> 
-      <a href="https://github.com/ThiagoNicolasSantosdaSilva"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png" alt="github" id="github"></a> 
-      <a href="mailto:profissional.thiagonicolas@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="email" id="email"></a>
-      <a href=""><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="linkedin" id="linkedin"></a>
-      <a href="https://app.picpay.com/user/profissional.thiagonicolas"><img src="https://pime.ufms.br/files/2019/12/ppay-icon.png" alt="picpay" id="picpay"></a> 
-      <a href=""><img src="https://cdn.icon-icons.com/icons2/1195/PNG/512/1490889684-paypal_82515.png" alt="paypal" id="paypal"></a> 
+    <div class="contact-info">
+      <h3>Contate-Nos</h3>
+      <p>Número de telefone: <br>
+        (21)98055-6251</p>
+    </div>
+    <div class="contact-info">
+      <h3>Localização</h3>
+      <p>Av. São Paulo, 89</p>
+      <p>CEP: 125225-660</p>
+      <p>Campos Elíseos, Duque de Caxias - RJ</p>
+    </div>
+    <div class="contact-info">
+      <h3>Horário Comercial</h3>
+      <p>Segunda a Sexta: 07:30 - 12:00</p>
+    </div>
+    <div class="contact-info">
+      <h3>Minhas Redes Sociais</h3>
+    </div>
+    <footer>
+      <a href="https://linktr.ee/thiagonicolas17"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/linktree-logo-icon.png" alt=""linktree></a>
+      <b><p>Thiago Nicolas - Todos os direitos Reservados - 2023</p></b>
     </footer>
+  </div>
+
+  <div class="container">
+    <h2>Contato</h2>
+    <form id="contactForm">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required style="width: 90%;">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required style="width: 90%;">
+
+      <label for="message">Mensagem:</label>
+      <textarea id="message" name="message" rows="4" required style="width: 90%;"></textarea>
+
+      <button type="submit"><b>Enviar</b></button>
+    </form>
+  </div>
 </body>
 </html>

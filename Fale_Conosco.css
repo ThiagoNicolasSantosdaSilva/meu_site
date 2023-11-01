@@ -1,84 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+  }
 
-/**Inicio Button*/
+  .container {
+    width: 70%;
+    height: 400px;
+    max-width: 500px;
+    margin-left: 740px;
+    background:yellow;
+    padding: 20px;
+    margin-top:-443px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+  .container2 {
+    width: 80%;
+    max-width: 100%;
+    margin: 0px;
+    margin-left: 30px;
+    background: blue;
+    padding: 20px;
+    margin-top:100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
 
-button{
-    border: solid 1px gray;
-    border-radius: 20px;
-    color: orange;
-    background-color: white;
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-      
-   
+  h2 {
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 3px solid blue;
+    color: blue;
+  }
+
+  button {
+    background:blue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .contact-info {
+    margin-top: 20px;
+  }
+
+  .contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info p {
+    margin: 0;
+  }
+  /**inicio do Rodape*/
+
+.container2 footer{
+  font-family: sans-serif;
 }
-.botao:hover{
-    background-color: blue;
-    color: white;
-    transform: scale(1.2)
-}
-
-button#pp{
-    border-radius:30px;
-}
-    
-
-
-button#cadastro{
-
-
-    border-radius:30px;
-}
-
-
-button#sobre{
-    border-radius:30px;
-
-    
-}
-
-button#fconosco{
-    border-radius:30px;
-}
-   
-
-/**Final Button*/
-
-/**Inicio do Fieldset*/
-fieldset{
-    margin-left: 900px;
-    
-}
-/**Final do Fieldset*/
-
-/**Inicio seice*/
-img#seice{
-    margin-top: -60px;
-    width: 200px;
-}
-/**Fim seice*/
-
-
-
-/**inicio do Rodape*/
-
-footer{
-   text-align: center;
-   font-family: sans-serif;
-}
-img#github{
-    width: 30px;
-    right: 10px;
-}
-img#email{
-    width: 30px;
-}
-img#linkedin{
-    width: 30px;
-}
-img#picpay{
-    width: 30px;
-}
-img#paypal{
-    width: 30px;
+img{
+  width: 30px;
 }
 
 /**Fim do Rodape*/
